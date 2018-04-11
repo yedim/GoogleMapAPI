@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Map3513</title>
+        <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="map3513.css">
+    <script src="map3513.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvyHIUjhZMTkKtdkrF7Va0Y5OpRrWgrjM&callback=initMap"
+    async defer></script>
+  </head>
+  <body>
+  		<p align="center" style="font-size:170%; font-family:'맑은 고딕'">3513 이예림</p>
+
+    <!-- Geocoding service -->
+    <div id="floating-panel">
+      여행 가고 싶은 곳 &nbsp;
+      <input id="address" type="textbox" value="Switzerland" style="font-size:90%;">
+      <input id="submit" type="button" value="Geocode" style="font-size:90%;">
+    </div>
+
+    <!-- 지도 api -->
+    <div id="map"></div>
+
+    <div id="distance"></div>
+
+  </body>
+
+
+</html>
